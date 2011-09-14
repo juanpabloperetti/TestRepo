@@ -10,4 +10,8 @@ public class GitTestActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
+    
+    protected void onResume() {
+    	super.onResume();
+    }
 }
